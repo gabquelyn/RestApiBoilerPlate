@@ -1,0 +1,60 @@
+<mj-section background-color="#151e2f" padding="20px 0">
+  <mj-column width="100%" vertical-align="middle">
+
+
+    <!-- Tagline -->
+    <mj-text
+      align="center"
+      color="#ffffff"
+      font-size="12px"
+      font-weight="bold"
+      padding="10px 25px 0px 25px"
+      line-height="1.4"
+    >
+      Raising Global Leaders
+    </mj-text>
+
+    <!-- Date / Disclaimer -->
+    <mj-text align="center" color="#cccccc" font-size="10px" padding="5px 25px">
+      NBC © {{ date }}. All rights reserved.
+    </mj-text>
+
+    <!-- Social / Links -->
+    <mj-social
+      font-size="12px"
+      icon-size="20px"
+      mode="horizontal"
+      align="center"
+      padding="10px 0px 0px 0px"
+    >
+      <mj-social-element
+        name="facebook"
+        href="https://www.facebook.com/share/1CZy6LLMmz/?mibextid=wwXIfr"
+      ></mj-social-element>
+      <mj-social-element
+        name="instagram"
+        href="https://www.instagram.com/northbridgecollegiate?igsh=NDhiZTFiMTljeWlk"
+        background-color="#C13584"
+      />
+      <mj-social-element
+        name="linkedin"
+        href="{{ linkedinUrl }}"
+      ></mj-social-element>
+    </mj-social>
+
+    <!-- Footer Links -->
+    <mj-text
+      align="center"
+      color="#999999"
+      font-size="10px"
+      padding="5px 25px 0px 25px"
+      line-height="1.4"
+    >
+      <a
+        href="https://www.northbridgec.ca/"
+        style="color: #999999; text-decoration: none"
+        >Website</a
+      >
+    </mj-text>
+  </mj-column>
+</mj-section>
